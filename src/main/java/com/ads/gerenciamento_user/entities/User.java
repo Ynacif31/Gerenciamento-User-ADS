@@ -1,6 +1,9 @@
 package com.ads.gerenciamento_user.entities;
 
+import com.ads.gerenciamento_user.repositories.UserRepository;
 import jakarta.persistence.*;
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.util.Objects;
 
 
