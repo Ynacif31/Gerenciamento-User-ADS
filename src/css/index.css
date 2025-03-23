@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;/* 
+    background-image: url(../img/wa.jpg);
+    background-size: cover; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* @media only screen and (max-width: 923px){
+    header, main, aside, footer {
+        width: 100%;
+    }
+    
+    header { order: 0; }
+    main { order: 1; }
+    aside { order: 2; }
+    footer { order: 3; }
+} */
+@media only screen and (max-width: 717px) {
+
+    #openMenu,
+    #closeMenu {
+        display: block;
+        /* Alterado de flex para block */
+        z-index: 1100;
+        /* Garantir que fique acima de outros elementos */
+    }
+
+
+}
